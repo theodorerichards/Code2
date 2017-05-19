@@ -1,0 +1,16 @@
+{
+  "name": "proper-node",
+  "version": "1.0.0",
+  "description": "testing proper node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "theodorerichards",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-emoji-clock": "^0.1.0"
+  }
+}

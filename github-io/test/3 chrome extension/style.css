@@ -1,0 +1,26 @@
+body {
+	background-color: white !important;
+	font-weight: bold !important;
+}
+
+div {
+	background-color: white !important;
+	border-color:  !important;
+	/*margin: none !important;*/
+}
+
+div a {
+	background-color: white !important;
+	border-color: white !important;
+	/*margin: none !important;*/
+}
+
+span, h3, pre, a, p, li, form, h1, h2, li a, div, div span, span span, div div, a div, div a span{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	color: white !important;
+
+}
+
+img {
+	color: white !important;
+}

@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "in class 1",
+	"description": " change background color",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+
+	"permissions": [
+		"tabs"
+	]
+
+}

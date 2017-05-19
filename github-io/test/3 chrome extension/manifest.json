@@ -1,0 +1,19 @@
+{
+	"manifest_version" : 2,
+	"name" : "CSS popup",
+	"version" : "1.0",
+  	"description" : "Change CSS",
+
+    "browser_action" : {
+      "default_icon": "icon.png"
+    },
+
+  	"content_scripts": [
+  		{
+  		//"matches" : ["http://facebook.com/*"],
+  		"matches" : ["<all_urls>"],
+  		"js" : ["script.js"],
+      "css" : ["style.css"]
+  		}
+  	]
+}

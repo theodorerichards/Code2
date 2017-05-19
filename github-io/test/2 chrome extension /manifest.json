@@ -1,0 +1,14 @@
+{
+	"manifest_version" : 2,
+	"name" : "script generated popup",
+	"version" : "1.0",
+  	"description" : "Clicking on icon will open an alert",
+
+  	"content_scripts": [
+  		{
+  		//"matches" : ["https://www.facebook.com/*"],
+  		"matches" : ["<all_urls>"],
+  		"js" : ["script.js"]
+  		}
+  	]
+}
